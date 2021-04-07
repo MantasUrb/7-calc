@@ -1,0 +1,14 @@
+1) kai norime inicijuoti proejekta, atsakant i kiekviena klausima atskirai:
+a) npm init 
+
+2) kai norime inicijuoti nauja projekta su default reikmem:
+a) npm init -y
+
+3) kas po iniciavimo:
+a) sukurti faia .gitignore ir jame irasyti:
+node_modules
+.DS_Store
+.vscode
+b) npm i live-server
+c) package.json reikia parasyti:
+    scripts dalyje:
